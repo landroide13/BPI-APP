@@ -33,7 +33,6 @@ nav{
   justify-content: space-around;
 
   background-color: var(--darkBlue);
-  color: var(--light);
 }
 
 nav h3{
@@ -45,14 +44,17 @@ ul.navigation{
   display: flex;
   list-style: none;
   justify-content: space-around;
+  align-items: center;
 }
 
-ul.navigation li{
+ul.navigation li a{
   margin: 1rem 1rem;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--light);
 }
 
-ul.navigation li:hover{
+ul.navigation li a:hover{
   color: var(--orange);
 }
 
