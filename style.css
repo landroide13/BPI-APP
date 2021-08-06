@@ -26,7 +26,7 @@ body{
   flex-direction: column;
 }
 
-/* Naviagtion */
+/* Navigation */
 
 nav{
   display: flex;
@@ -116,12 +116,32 @@ main img{
 
 /* Section C */
 
+.section-c h4{
+  text-align: center;
+}
+
 .section-c{
   display: flex;
   flex-direction: column;
 }
 
+.section-c th{
+  text-align: center;
+}
 
+.section-c td{
+  text-align: center;
+}
+
+.section-c td.date{
+  background-color: var(--darkBlue);
+  color: var(--lightGrey);
+}
+
+.section-c td.price{
+  background-color: var(--orange);
+  color: var(--lightGrey);
+}
 
 /* Section D */
 
