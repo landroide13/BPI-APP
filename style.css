@@ -48,6 +48,7 @@ ul.navigation{
 }
 
 ul.navigation li a{
+  font-size: .8rem;
   margin: 1rem 1rem;
   cursor: pointer;
   text-decoration: none;
