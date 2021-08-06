@@ -49,6 +49,7 @@ ul.navigation{
 
 ul.navigation li{
   margin: 1rem 1rem;
+  cursor: pointer;
 }
 
 ul.navigation li:hover{
@@ -73,6 +74,15 @@ main img{
   justify-content: space-between;
 }
 
+.section-a .card-container{
+  background-color: var(--lightGrey);
+}
+
+.section-a .card-container .card-text{
+  padding: 1em;
+}
+
+
 
 /* Section B */
 
@@ -83,6 +93,10 @@ main img{
 .card-container{
   display: flex;
   flex-direction: column;
+}
+
+.card-container h4{
+  margin-bottom: 1rem;
 }
 
 .card{ 
@@ -100,6 +114,49 @@ main img{
 
 .card-content{
   padding: 1.5em;
+}
+
+/* Section D */
+
+.section-d{
+  padding: .5rem;
+  background-color: var(--darkBlue);
+  color: var(--steel);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section-d h5{
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.section-d .name{
+  font-weight: 600;
+}
+
+.section-d .test-text{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 1em;
+}
+
+/* Section E */
+
+.section-e{
+  display: flex;
+  flex-direction: column;
+}
+
+.section-e .box{
+  padding: 2em;
+
+  background-color: var(--lightGrey);
+}
+
+.section-e .box:first-child{
+  background-color: var(--orange);
+  color: var(--lightGrey);
 }
 
 
