@@ -82,8 +82,6 @@ main img{
   padding: 1em;
 }
 
-
-
 /* Section B */
 
 .section-b{
@@ -115,6 +113,15 @@ main img{
 .card-content{
   padding: 1.5em;
 }
+
+/* Section C */
+
+.section-c{
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 /* Section D */
 

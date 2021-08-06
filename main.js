@@ -10,8 +10,13 @@ let getPrice = () => {
       var li = "";
 
       var res = Object.keys(data).map(val => {
-        // console.log("Val: " + val +" "+ data[val]);
-        li += `<li>${val}: ${data[val]}</li>`;
+        console.log('Tracking Runnning..');
+        li += `
+              <tr>
+                <td class="date">${val}</td>
+                <td class="price">U$ ${data[val]}</td>
+              </tr>
+            `;
         list2.innerHTML = li;
       });
     }
@@ -20,9 +25,9 @@ let getPrice = () => {
   xhr2.send();
 }
 
-getPrice();
+// getPrice();
 
-
+setTimeout(getPrice(), 5000);
 
 
 
