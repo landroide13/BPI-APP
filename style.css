@@ -123,6 +123,8 @@ main img{
 .section-c{
   display: flex;
   flex-direction: column;
+
+  padding: 1.5rem;
 }
 
 .section-c th{
