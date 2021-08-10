@@ -36,7 +36,7 @@ nav{
 }
 
 nav h3{
-  font-size: .8rem;
+  font-size: .9rem;
   margin: 1rem 1rem;
   color: var(--orange);
 }
@@ -279,6 +279,14 @@ footer{
     height: 350px;
   }
 
+  nav h3{
+   font-size: 1.2rem;
+  }
+
+  ul.navigation li a{
+   font-size: 1rem;
+  }
+
 }
 
 
@@ -333,7 +341,7 @@ footer{
   .section-e h4{
     font-size: 1.5rem;
   }
-  
+
 }
 
 
