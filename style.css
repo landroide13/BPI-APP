@@ -243,6 +243,22 @@ footer{
 
 /* Bigger Screens */
 
+@media(min-width: 351px){
+
+  .section-d iframe{
+    height: 300px;
+  }
+
+}
+
+@media(min-width: 1090px){
+
+  .section-d iframe{
+    height: 600px;
+  }
+
+}
+
 @media(min-width: 581px){
 
   .section-a{
@@ -276,7 +292,7 @@ footer{
   }
 
   .section-d iframe{
-    height: 350px;
+    height: 360px;
   }
 
   nav h3{
@@ -314,7 +330,7 @@ footer{
   }
 
   .section-d iframe{
-    height: 500px;
+    height: 510px;
   }
 
   .section-e{
